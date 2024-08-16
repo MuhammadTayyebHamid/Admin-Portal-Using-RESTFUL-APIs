@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    flex: 0 1 auto;
+    height: 100px;
+    background-color: #000042;
+    display: flex;
+}
+
+.logo {
+    height: 180px; /* Adjust as needed */
+    width: auto;
+    margin-left: 15px;
+    transform: translateY(-50px);
+}
+
+.profile{
+    width: 100%;
+}
+
+.icon{
+    float: right;
+    margin-right: 40px;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+p2{
+    align-self: center;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
